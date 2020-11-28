@@ -193,10 +193,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 1.962, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1795917644}
+  - {fileID: 1054298551}
   - {fileID: 908583484}
   - {fileID: 2073053113}
-  - {fileID: 1054298551}
   - {fileID: 535479560}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -229,7 +228,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8821183}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &664942854
 GameObject:
@@ -541,7 +540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908583483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 664942855}
@@ -560,7 +559,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 663e3fe641957a24aba75aea46c32be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2073053113}
+  mouseSensitivity: 1000
+  playerBody: {fileID: 8821183}
 --- !u!1 &1054298550
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,9 +590,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1795917644}
   m_Father: {fileID: 8821183}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &1054298552
 CapsuleCollider:
@@ -684,10 +685,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795917643}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.003, y: 0.78600013, z: 0.359}
-  m_LocalScale: {x: 0.30731, y: 0.21754, z: 0.8179643}
+  m_LocalPosition: {x: 0.003, y: 0.5240001, z: 0.359}
+  m_LocalScale: {x: 0.30731, y: 0.14502667, z: 0.8179644}
   m_Children: []
-  m_Father: {fileID: 8821183}
+  m_Father: {fileID: 1054298551}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &1795917645
